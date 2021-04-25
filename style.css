@@ -31,3 +31,7 @@ body {
  padding: 45px;
  text-align: center;
 }
+
+input.form {
+ margin: 5px;
+}
