@@ -40,3 +40,7 @@ input {
 .sign-in-button {
  margin-top: 20px;
 }
+
+input[type="password"] {
+    font-family: caption;
+}
