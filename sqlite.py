@@ -19,6 +19,20 @@ def menu():
 
 
 def info_input():
+    name_input = input("Name: ")
+    
+    age_input = float(input("Age: "))
+    
+    org_input = input("School or Organization: ")
+    
+    address_input = input("Address: ")
+    
+    city_input = input("City: ")
+    
+    state_input = input("State: ")
+    
+    country_input = input("Country: ")
+    
     email_input = input("Email for the account: ")
 
     pass_input = hash(input("Password for the account: "))
