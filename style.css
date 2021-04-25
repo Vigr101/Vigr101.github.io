@@ -44,3 +44,7 @@ input {
 input[type="password"] {
     font-family: caption;
 }
+
+::placeholder {
+    font-family: "Roboto", sans-serif
+}
