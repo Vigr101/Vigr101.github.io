@@ -1,4 +1,4 @@
-function sha256(message) {
+async function sha256(message) {
     // encode as UTF-8
     const msgBuffer = new TextEncoder().encode(message);                    
 
