@@ -13,7 +13,7 @@ async function sha256(message) {
     return hashHex;
 }
 
-function save_info() {
+async function save_info() {
 	var email = document.getElementById('email').value
 	var password = sha256(document.getElementById('password').value)
 	alert("Info " + email + ", " + await password + " Saved")
