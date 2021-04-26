@@ -16,5 +16,6 @@ async function sha256(message) {
 async function save_info() {
 	var email = document.getElementById('email').value
 	var password = await sha256(document.getElementById('password').value)
+	//test
 	alert("Info " + email + ", " + await password + " Saved")
 }
