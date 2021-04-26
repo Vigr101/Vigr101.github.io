@@ -1,4 +1,4 @@
 function save_info() {
-  var email = document.GetElementById("email").value
+  var email = document.getElementById("email").value
   console.log("Info " + email + " Saved")
 }
